@@ -2,10 +2,15 @@
 
 This package provides Baconshakes's .eslintrc as an extensible shared config.
 
+It's built upon [`eslint-config-airbnb-base`](https://www.npmjs.com/package/eslint-config-airbnb-base)
+
 ## Installation
 
-For some reason, it's not sufficient to run `npx install-peerdeps --dev @baconshake/eslint-config-typescript-base`,
-so you either have to install the `peerDependencies` manually:
+This package has a few peer dependencies. You can install them a few different ways:
+
+```sh
+npx install-peerdeps @baconshake/eslint-config-typescript-base
+```
 
 ```sh
 npm info "@baconshake/eslint-config-typescript-base" peerDependencies
